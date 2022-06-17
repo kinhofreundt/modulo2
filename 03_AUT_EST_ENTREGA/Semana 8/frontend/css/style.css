@@ -1,0 +1,89 @@
+﻿* {
+	font-family: Roboto;
+}
+
+main {
+	padding: 0px 0px 30px 0px;
+	word-break: normal;
+}
+
+body, html {
+	width: 100%;
+	background-color: #fff;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+	width: 40% !important;
+	margin-left: 20px;
+	height: 3px !important;
+}
+
+.coluna-esquerda {
+	background-color: rgb(64, 132, 199) !important;
+	padding: 20px;
+	color: #fff;
+}
+
+.fa {
+	color: #fff !important;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.list {
+	list-style: none;
+}
+
+li {
+	align-items: baseline;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.title {
+	margin-left: 15px;
+}
+
+.coluna-direita {
+	padding: 20px;
+	color: #000;
+}
+
+.title-direita {
+	color: rgb(64, 132, 199) !important;
+	margin-left: 15px;
+
+}
+
+.row-container, textarea {
+	margin-left: 15px;
+
+}
+
+.btn-add {
+	border: none;
+	background-color: transparent;
+}
+
+.fa-window-close, .fa-floppy-o {
+	font-size: 25px !important;
+	margin-left: 15px;
+	margin-bottom: 20px;	
+}
+
+textarea{
+	margin-bottom: 20px;
+}
+#textarea, #updateTextarea{
+	display: none;
+}
